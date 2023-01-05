@@ -1,23 +1,17 @@
 
-import * as React from 'react';
+import React, { FC } from 'react';
 import { hot } from "react-hot-loader/root";
 
 interface Props {
-   name:
-    string
+   name?: string
 }
 
-class App extends React.Component<Props> {
-  render() {
-    const { name } = this.props;
-    return (
-      <>
-        <h1>
-          Hello {name}
-        </h1>
-      </>
-    );
-  }
+const App: React.FC<Props> = () => {
+  return (
+    <div className="app">
+      ssdfsdf
+    </div>
+  );
 }
 
 export default hot(App);
