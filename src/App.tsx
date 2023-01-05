@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Link, Routes, Route } from "react-router-dom";
+import { Link, Routes, Route } from 'react-router-dom';
 
 import Dashboard from './pages/Dashboard';
 import Test from './pages/Test';
